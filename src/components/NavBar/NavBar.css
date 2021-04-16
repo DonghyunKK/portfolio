@@ -1,5 +1,6 @@
 nav {
-  background-color: pink;
+  background-color: #fff;
+  color: #1d1e1e;
 }
 
 .nav-header {
@@ -13,11 +14,17 @@ nav {
   font-size: 1.5rem;
   background: transparent;
   border-color: transparent;
+  color: #1d1e1e;
   cursor: pointer;
+}
+
+.nav-toggle:hover {
+  opacity: 0.7;
 }
 
 .nav-toggle:focus {
   outline: none;
+  opacity: 0.7;
 }
 
 .logo {
@@ -29,15 +36,18 @@ a.links {
   text-transform: capitalize;
   display: block;
   padding: 0.5rem 1rem;
+  color: #1d1e1e;
 }
 
 a.links:hover {
   padding-left: 1.5rem;
+  opacity: 0.5;
 }
 
 .links-container {
   height: 0;
   overflow: hidden;
+  color: #1d1e1e;
 }
 
 
@@ -61,6 +71,10 @@ a.links:hover {
 
   .links-container {
     height: auto !important;
+    display: flex;
+  }
+
+  .links-height {
     display: flex;
   }
 

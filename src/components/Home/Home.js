@@ -5,7 +5,10 @@ const Home = () => {
   return (
     <>
     <div className="banner">
-      {/* <h1>Home</h1> */}
+      <div className="text-center">
+        <h1>Hello</h1>
+        <p>Full stack developer from London</p>
+      </div>
     </div>
     </>
   )
