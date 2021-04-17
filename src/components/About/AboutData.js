@@ -1,4 +1,4 @@
-export const AboutData = [
+const AboutData = [
   {
     id: 1,
     title: 'Backend',
@@ -19,4 +19,6 @@ export const AboutData = [
     title: 'Design / Deploy',
     skills: ['Figma', 'Heroku']
   },
-]
+];
+
+export default AboutData;
