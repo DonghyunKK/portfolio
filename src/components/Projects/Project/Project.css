@@ -1,0 +1,23 @@
+.image {
+  width: 20rem;
+  height: 15rem;
+}
+
+.project-section {
+  width: 90%;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.project-image {
+  text-align: center;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-info {
+  width: 100%;
+}

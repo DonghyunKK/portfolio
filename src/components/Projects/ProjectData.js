@@ -1,28 +1,31 @@
 import React from 'react';
-import piatto from '../../project-img/piatto';
-import butterbee from '../../project-img/butterbee';
+import Piatto from '../../project-img/piatto.gif';
+import Butterbee from '../../project-img/butterbee.gif';
 
 
 const ProjectData = [
   {
+    id: 1,
     title: "Butter Bee Bakery",
-    image: {butterbee},
-    techs: ['Ruby on Rails', 'HTML', 'CSS/Sass', 'Postgresql', 'JavaScript'],
+    image: Butterbee,
+    techs: "Ruby on Rails, HTML, CSS/Sass, Postgresql, JavaScript",
     description: "",
     website: "https://www.butterbeebakery.co.uk",
     source: "https://github.com/DonghyunKK/butterbee"
   },
   {
+    id: 2,
     title: "Piatto",
-    image: {piatto},
+    image: Piatto,
     techs: ['Ruby on Rails', 'HTML', 'CSS/Sass', 'Postgresql', 'JavaScript'],
     description: "",
     website: "https://www.piat.to",
     source: "https://github.com/liamjcksn/piatto"
   },
   {
+    id: 3,
     title: "Portfolio",
-    image: {piatto},
+    image: Piatto,
     techs: ['HTML', 'CSS/Sass', 'React'],
     description: "",
     website: "https://www.piat.to",
