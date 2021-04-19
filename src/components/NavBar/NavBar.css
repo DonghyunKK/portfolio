@@ -52,6 +52,10 @@ a.links:hover {
   color: #1d1e1e;
 }
 
+.social-icons {
+  display: none;
+}
+
 
 @media screen and (min-width: 800px) {
   .nav-center {
@@ -87,5 +91,16 @@ a.links:hover {
   a.links:hover {
     padding: 0 2rem;
     background: transparent;
+  }
+
+  .social-icons {
+    display: flex;
+  }
+  .social-icons a {
+    margin: 0 0.5rem;
+    color: #1d1e1e;
+  }
+  .social-icons a:hover {
+    opacity: 0.5;
   }
 }

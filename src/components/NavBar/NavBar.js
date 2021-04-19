@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-import { FaBars } from 'react-icons/fa';
+import { FaBars, FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 import logo from '../../logo.svg';
 import './NavBar.css';
 
@@ -46,6 +46,17 @@ const NavBar = () => {
                 </NavLink>
               </div>
             </div>
+            <ul className="social-icons">
+              <li>
+                <a href="https://www.linkedin.com/in/donghyun-kim/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+              </li>
+              <li>
+                <a href="https://github.com/DonghyunKK" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+              </li>
+              <li>
+                <a href="mailto:donghyunkim524@gmail.com" target="_blank" rel="noopener noreferrer"><FaEnvelope /></a>
+              </li>
+            </ul>
           </div>
         </nav>
   )
