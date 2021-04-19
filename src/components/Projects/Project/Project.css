@@ -27,6 +27,15 @@
   padding: 1rem 0;
 }
 
+.project-link {
+  color: #455954;
+  font-weight: bold;
+}
+
+.project-link:hover {
+  color: #1d1e1e;
+}
+
 .techs {
   padding: 1rem 0;
 }

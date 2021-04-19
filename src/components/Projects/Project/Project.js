@@ -27,8 +27,8 @@ const Project = ( { title, image, techs, description, website, source } ) => {
             </div>
           </div>
           <div className="project-links-container">
-            <a href={website} target="_blank" rel="noopener noreferrer" className="link-text"> LIVE </a>
-            <a href={source} target="_blank" rel="noopener noreferrer" className="link-text"> SOURCE CODE </a>
+            <a href={website} target="_blank" rel="noopener noreferrer" className="project-link"> LIVE </a>
+            <a href={source} target="_blank" rel="noopener noreferrer" className="project-link"> SOURCE CODE </a>
           </div>
         </div>
       </div>

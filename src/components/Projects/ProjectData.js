@@ -29,7 +29,7 @@ const ProjectData = [
     image: Portfolio,
     techs: ['HTML', 'CSS/Sass', 'React'],
     description: "Portfolio website to introduce myself and showcase my projects.",
-    website: "https://www.piat.to",
+    website: "https://donghyunkim.herokuapp.com/",
     source: "https://github.com/DonghyunKK/portfolio"
   }
 ];
