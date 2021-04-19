@@ -6,7 +6,10 @@ import './Projects.css';
 const Projects = () => {
   return (
     <div className="page-container">
-    <h1>My Projects</h1>
+     <div className="title">
+        <h2>My Projects</h2>
+        <div className="underline"></div>
+      </div>
     <div className="projects-container">
       {
         ProjectData.map(( {id, title, image, techs, description, website, source } ) => {

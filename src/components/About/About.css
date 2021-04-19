@@ -3,15 +3,10 @@
   width: 90%;
 }
 
-.title {
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
 .underline {
-  width: 5rem;
+  width: 8rem;
   height: 0.25rem;
-  background: #1d1e1e;
+  background: #9d7463;
   margin-left: auto;
   margin-right: auto;
 }
@@ -36,8 +31,19 @@
 
 .about-container {
   margin: 0 auto;
-  width: 80%;
+  width: 90%;
   padding: 5rem 0;
+}
+
+a.link-text {
+  /* color: #1d1e1e; */
+  color: #455954;
+  /* float: right; */
+}
+
+.link-text:hover {
+  /* color: #455954; */
+  color: #1d1e1e;
 }
 
 .box-body {
@@ -70,8 +76,19 @@
 }
 
 .title {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   /* font-size: 15px; */
   text-transform: uppercase;
+  text-align: center;
   font-weight: bold;
+}
+
+.about-text {
+  padding: 1rem 0;
+}
+
+@media screen and (min-width: 800px) {
+  .about-container {
+    width: 55%;
+  }
 }

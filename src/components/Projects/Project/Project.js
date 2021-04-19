@@ -14,11 +14,21 @@ const Project = ( { title, image, techs, description, website, source } ) => {
           </div>
           <div className="project-desc">
             <p>{description}</p>
-            <p>{techs}</p>
+            <div className="techs">
+              <p className="tech-title">Coded with</p>
+              {/* <p>{techs}</p> */}
+              <ul>
+                {techs.map((tech, index) => {
+                  return (
+                    <li key={index}>{tech}</li>
+                  )
+                })}
+              </ul>
+            </div>
           </div>
           <div className="project-links-container">
-            <a href={website} target="_blank" > LIVE </a>
-            <a href={source} target="_blank" > SOURCE CODE </a>
+            <a href={website} target="_blank" rel="noopener noreferrer" className="link-text"> LIVE </a>
+            <a href={source} target="_blank" rel="noopener noreferrer" className="link-text"> SOURCE CODE </a>
           </div>
         </div>
       </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import Piatto from '../../project-img/piatto.gif';
 import Butterbee from '../../project-img/butterbee.gif';
+import Portfolio from '../../project-img/portfolio.png';
 
 
 const ProjectData = [
@@ -8,8 +9,8 @@ const ProjectData = [
     id: 1,
     title: "Butter Bee Bakery",
     image: Butterbee,
-    techs: "Ruby on Rails, HTML, CSS/Sass, Postgresql, JavaScript",
-    description: "ButterBee is website for a private business; Butter Bee Bakery. Users can find bakery's products with pictures and can place bespoke orders via email. Users can also find bakery's limited edition and SNS feed is real time",
+    techs: ["Ruby on Rails", "HTML", "CSS/Sass", "Postgresql", "JavaScript"],
+    description: "Website for a private business; Butter Bee Bakery. Users can view products in picture gallery and can place bespoke orders via email. Users can also see social media feed with the latest updates.",
     website: "https://www.butterbeebakery.co.uk",
     source: "https://github.com/DonghyunKK/butterbee"
   },
@@ -25,9 +26,9 @@ const ProjectData = [
   {
     id: 3,
     title: "Portfolio",
-    image: Piatto,
+    image: Portfolio,
     techs: ['HTML', 'CSS/Sass', 'React'],
-    description: "Portfolio website to showcase my projects and about me",
+    description: "Portfolio website to introduce myself and showcase my projects.",
     website: "https://www.piat.to",
     source: "https://github.com/DonghyunKK/portfolio"
   }
