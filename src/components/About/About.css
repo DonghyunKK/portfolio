@@ -11,22 +11,27 @@
   margin-right: auto;
 }
 
+.intro-size {
+  padding: 1rem 0;
+}
+
 .box-container {
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 1rem;
-  padding: 2rem 0;
+  padding: 1rem 0;
+}
+
+.icon {
+  text-align: center;
+  font-size: 3rem;
 }
 
 .box {
-  padding: 30px 15px;
-  border-radius: 6px;
+  padding: 2rem 1rem;
   overflow: hidden;
-  border: 1px solid #EEE;
   margin-top: 30px;
-  box-shadow: 0 10px 50px rgb(20 50 47 / 3%), 0 10px 40px rgb(0 0 0 / 3%);
-  /* text-align: center; */
 }
 
 .about-container {
@@ -36,13 +41,11 @@
 }
 
 a.link-text {
-  /* color: #1d1e1e; */
-  color: #455954;
-  /* float: right; */
+  color: #B89065;
+  font-weight: bolder;
 }
 
 .link-text:hover {
-  /* color: #455954; */
   color: #1d1e1e;
 }
 
@@ -54,33 +57,50 @@ a.link-text {
   height: 70%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: flex-start;
 }
 
 .list-box {
-  /* display: flex;
-  justify-content: space-around;
-  align-items: center; */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  grid-gap: 1rem;
+  /* grid-gap: 1rem; */
   align-items: center;
+  justify-content: flex-start;
+  /* padding-top: 1.3rem; */
 }
 
 .skill-list {
   text-align: center;
   overflow: hidden;
   margin-bottom: 0;
-  color: #5e6267;
-  line-height: 2rem;
+  color: #5f7782;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+
+.skill-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  font-size: 1.3rem;
+}
+
+
+.skill {
+  /* border: 1px solid #5e6267; */
+  /* border-radius: 1rem; */
+  padding: 0.5rem 0;
+  font-weight: 500;
+  font-size: 1.2rem;
 }
 
 .title {
   margin-bottom: 2rem;
-  /* font-size: 15px; */
   text-transform: uppercase;
   text-align: center;
   font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .about-text {

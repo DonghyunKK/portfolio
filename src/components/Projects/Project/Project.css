@@ -28,12 +28,14 @@
 }
 
 .project-link {
-  color: #455954;
-  font-weight: bold;
-}
-
-.project-link:hover {
-  color: #1d1e1e;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: #0c2431;
+  min-width: 9rem;
+  text-align: center;
+  font-weight: 500;
+  font-size: 0.8rem;
 }
 
 .techs {
@@ -43,12 +45,14 @@
 .techs li {
   display: inline-block;
   padding: 0.5rem 1rem;
+  font-size: 1rem;
 }
 
 .tech-title {
-  color: #9b9ba4;
+  color: #636c6e ;
   font-weight: bolder;
-  /* font-size: 1rem; */
+  padding: 0 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .project-links-container {

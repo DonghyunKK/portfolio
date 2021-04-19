@@ -1,5 +1,4 @@
 nav {
-  /* background-color: #eceae1; */
   background-color: #e7e7e7;
   color: #1d1e1e;
 }
@@ -29,19 +28,21 @@ nav {
 }
 
 .logo {
-  height: 50px;
+  height: 40px;
 }
 
 a.links {
   font-size: 1rem;
+  font-weight: bold;
   text-transform: capitalize;
   display: block;
   padding: 0.5rem 1rem;
+  text-align: right;
   color: #1d1e1e;
 }
 
 a.links:hover {
-  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   opacity: 0.5;
 }
 

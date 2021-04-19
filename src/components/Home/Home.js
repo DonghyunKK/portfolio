@@ -7,10 +7,12 @@ const Home = () => {
     <>
     <div className="banner">
       <div className="text-center">
-        <h1>Hello.</h1>
-        <h2>I'm Donghyun Kim</h2>
+        <div className="font-size">
+          <h1>Hello.</h1>
+          <h2>I'm Donghyun Kim</h2>
+        </div>
         <p className="text">Full Stack Web Developer from London</p>
-        <Link to='/about' className="link-text">
+        <Link to='/about' className="more-link">
           Find out more
         </Link>
       </div>
