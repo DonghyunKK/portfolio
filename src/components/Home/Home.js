@@ -4,7 +4,6 @@ import './Home.css';
 
 const Home = () => {
   return (
-    <>
     <div className="banner">
       <div className="text-center">
         <div className="font-size">
@@ -17,7 +16,6 @@ const Home = () => {
         </Link>
       </div>
     </div>
-    </>
   )
 }
 
