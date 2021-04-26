@@ -13,7 +13,7 @@ const Project = ( { title, image, techs, description, website, source } ) => {
             <h3>{title}</h3>
           </div>
           <div className="project-desc">
-            <p>{description}</p>
+            <p className="project-description">{description}</p>
             <div className="techs">
               <p className="tech-title">Coded with</p>
               {/* <p>{techs}</p> */}

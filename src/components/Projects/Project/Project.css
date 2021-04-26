@@ -27,6 +27,10 @@
   padding: 1rem 0;
 }
 
+.project-description {
+  line-height: 1.8rem;
+}
+
 .project-link {
   color: white;
   padding: 8px 24px;
