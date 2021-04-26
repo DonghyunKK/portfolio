@@ -2,6 +2,7 @@ import React from 'react';
 import Piatto from '../../project-img/piatto.gif';
 import Butterbee from '../../project-img/butterbee.gif';
 import Portfolio from '../../project-img/portfolio.png';
+import Coin from '../../project-img/coin24.gif';
 
 
 const ProjectData = [
@@ -31,6 +32,15 @@ const ProjectData = [
     description: "Portfolio website to introduce myself and showcase my projects.",
     website: "https://donghyunkim.herokuapp.com/",
     source: "https://github.com/DonghyunKK/portfolio"
+  },
+  {
+    id: 3,
+    title: "Coin24",
+    image: Coin,
+    techs: ['HTML', 'CSS/Sass', 'React', 'styled-components'],
+    description: "A cryptocurrency price traker for top 100 cryptocurrencies with data fetched from Coingecko's API. User can also use DarkMode Theme",
+    website: "https://https://coin24.netlify.app/",
+    source: "https://github.com/DonghyunKK/cryptocurrency-price-tracker"
   }
 ];
 
