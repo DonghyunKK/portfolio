@@ -39,7 +39,7 @@ const ProjectData = [
     image: Coin,
     techs: ['HTML', 'CSS/Sass', 'React', 'styled-components'],
     description: "A cryptocurrency price tracker for top 100 cryptocurrencies with data fetched from Coingecko's API. User can also use DarkMode Theme.",
-    website: "https://https://coin24.netlify.app/",
+    website: "https://coin24.netlify.app/",
     source: "https://github.com/DonghyunKK/cryptocurrency-price-tracker"
   }
 ];
