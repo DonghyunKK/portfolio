@@ -28,7 +28,7 @@ const ProjectData = [
     id: 3,
     title: "Portfolio",
     image: Portfolio,
-    techs: ['HTML', 'CSS/Sass', 'React'],
+    techs: ['HTML', 'CSS', 'React'],
     description: "Portfolio website to introduce myself and showcase my projects.",
     website: "https://donghyunkim.herokuapp.com/",
     source: "https://github.com/DonghyunKK/portfolio"
@@ -37,7 +37,7 @@ const ProjectData = [
     id: 3,
     title: "Coin24",
     image: Coin,
-    techs: ['HTML', 'CSS/Sass', 'React', 'styled-components'],
+    techs: ['HTML', 'CSS', 'React', 'styled-components'],
     description: "A cryptocurrency price tracker for top 100 cryptocurrencies with data fetched from Coingecko's API. User can also use DarkMode Theme.",
     website: "https://coin24.netlify.app/",
     source: "https://github.com/DonghyunKK/cryptocurrency-price-tracker"
