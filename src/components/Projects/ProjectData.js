@@ -21,7 +21,7 @@ const ProjectData = [
     image: Piatto,
     techs: ['Ruby on Rails', 'HTML', 'CSS/Sass', 'Postgresql', 'JavaScript'],
     description: "Piatto was built by myself and a team of 3 others as our final project for Le Wagon coding bootcamp. Piatto is a social network dish discovery platform to find and share your dishes based on your taste and network. Users can make their own dishlist with their favorite dishes. Users can also follow other users and check dishlist of their network. According to current location, users can order same dish from their network or can order similar dish around their location suggested by Piatto.",
-    website: "https://piattoo.herokuapp.com/",
+    website: "https://piattoo.herokuapp.com",
     source: "https://github.com/liamjcksn/piatto"
   },
   {
